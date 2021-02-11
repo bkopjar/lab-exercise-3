@@ -1,0 +1,18 @@
+p:first-of-type {
+   font-size: 115%;
+   color: red;
+}
+
+img {
+   -webkit-filter: grayscale(50%); 
+   filter: grayscale(50%);
+ }
+
+ .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) {
+   background-color: red;
+}
+
+th {
+    color: blue;
+    text-align: center;
+}
